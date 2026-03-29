@@ -66,6 +66,8 @@ air_quality_monitor/
 ├── web.cpp                   — HTTP-Handler & Web-Interface
 ├── globals.h                 — Gemeinsame Variablen & Objekte
 └── secrets.h                 — WLAN-Konfiguration (nicht im Repo)
+```
+---
 
 ## Abhängigkeiten (Arduino-Bibliotheken)
 
