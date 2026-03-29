@@ -81,7 +81,7 @@ air_quality_monitor/
 
 ---
 
-## 🛠 Konfiguration & Einrichtung
+## Konfiguration & Einrichtung
 
 ### 1. Initialisierung
 * **WLAN & Zugangsdaten:** Trage in die Datei `secrets.h` Deine Daten ein.
