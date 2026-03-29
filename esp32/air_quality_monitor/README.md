@@ -65,7 +65,7 @@ air_quality_monitor/
 ├── log.cpp                   — SD-Logging & Dateiverwaltung
 ├── web.cpp                   — HTTP-Handler & Web-Interface
 ├── globals.h                 — Gemeinsame Variablen & Objekte
-└── secrets.h                 — WLAN-Konfiguration (nicht im Repo)
+└── secrets.h                 — WLAN-Konfiguration
 ```
 ---
 
@@ -84,10 +84,7 @@ air_quality_monitor/
 ## Konfiguration & Einrichtung
 
 ### 1. Initialisierung
-* **WLAN & Zugangsdaten:** Trage in die Datei `secrets.h` Deine Daten ein.
-
-> [!NOTE]
-> Die `secrets.h` wird durch die `.gitignore` ignoriert und landet nicht im öffentlichen Repository.
+* **WLAN & Zugangsdaten:** Trage in die Datei `secrets.h` Deine Daten ein (die `secrets.h` wird durch die `.gitignore` ignoriert)
 
 * **SCD41 Temperatur-Offset:** Aktuell auf **4.9°C** eingestellt (Eigenwärme-Kompensation). 
 
