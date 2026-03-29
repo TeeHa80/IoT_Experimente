@@ -95,9 +95,9 @@ air_quality_monitor/
 * **DS3231 Echtzeituhr:** Das Modul besitzt eine Ladeschaltung für **LIR2032 Akkus**. Standard CR2032 Batterien können dadurch beschädigt werden/auslaufen! 
   **Ohne Batterie:** Zeit muss nach jedem Start manuell über `/settime` im Browser gesetzt werden. Ohne gültige Zeit erfolgt **kein Logging**.
 * **SD-Karte:** * Formatierung ausschließlich mit dem [SD Card Formatter](https://www.sdcard.org/downloads/formatter/).
-    * **Stromspitzen:** Class-10 Karten können beim Schreiben kurzzeitig hohe Ströme ziehen. Falls es zu Schreibfehlern kommt: Ein **100µF Kondensator** zwischen 5V und GND am SD-Modul schafft Abhilfe.
+  **Stromspitzen:** Class-10 Karten können beim Schreiben kurzzeitig hohe Ströme ziehen. Falls es zu Schreibfehlern kommt: Ein **100µF Kondensator** zwischen 5V und GND am SD-Modul schafft Abhilfe.
 * **BME680 / BSEC:** * Volle Kalibrierung (`Accuracy 3`) wird erst nach mehreren Stunden erreicht.
-    * Für das Display und Dashboard wird `bme_static_iaq` verwendet (optimiert für stationäre Geräte).
+  Für das Display und Dashboard wird `bme_static_iaq` verwendet (optimiert für stationäre Geräte).
 
 ---
 
