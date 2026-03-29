@@ -99,7 +99,9 @@ air_quality_monitor/
 ---
 
 ## Geplant / Roadmap
-- [ ] **Datenspeicherung 2.0:** Migration auf lokale SQLite-Datenbank oder MQTT-Anbindung
-- [ ] **Modern Dashboard:** React/Node.js Interface basierend auf der `/sensors`-API
-- [ ] **Advanced AQI:** Kombinierter Index aus CO₂, IAQ, PM2.5 und PM10
 - [ ] **State Persistence:** BSEC-Kalibrierungsdaten im EEPROM sichern für schnelleren Kaltstart
+- [ ] **Advanced AQI:** Kombinierter Index aus CO₂, IAQ, PM2.5 und PM10
+- [ ] **Modern Dashboard:** React/Node.js Interface basierend auf der `/sensors`-API
+- [ ] **Datenspeicherung 2.0:** Migration auf lokale SQLite-Datenbank oder MQTT-Anbindung
+
+
